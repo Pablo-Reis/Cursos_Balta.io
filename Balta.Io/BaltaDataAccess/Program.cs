@@ -15,8 +15,10 @@ class Program
             // UpdateCategory(connection);
             //DeleteCategory(connection);
             // CreateCategory(connection);
-            CreateManyCategory(connection);
-            ListCategories(connection);
+            //CreateManyCategory(connection);
+            //ExecuteProcedure(connection);
+            ExecuteReadProcedure(connection);
+            //ListCategories(connection);
         }
     }
 
@@ -134,5 +136,24 @@ class Program
         }
         );
         Console.WriteLine($"{rows} linhas inseridas!");
+    }
+
+    static void ExecuteProcedure(SqlConnection connection)
+    {
+        var procedure = "[spDeleteStudent]";
+        var pars = new { StudentId = "42513948-0fbc-4b5b-a04f-6996a3d42f5c" };
+        var rows = connection.Execute(procedure, pars, commandType: System.Data.CommandType.StoredProcedure);
+        Console.WriteLine($"{rows} registros executados");
+    }
+
+    static void ExecuteReadProcedure(SqlConnection connection)
+    {
+        var procedure = "[spGetCoursesByCategory]";
+        var pars = new { CategoryId = "09ce0b7b-cfca-497b-92c0-3290ad9d5142" };
+        var courses = connection.Query<Category>(procedure, pars, commandType: System.Data.CommandType.StoredProcedure);
+        foreach (var course in courses)
+        {
+            Console.WriteLine($"{course.Id} - {course.Title}");
+        }
     }
 }
