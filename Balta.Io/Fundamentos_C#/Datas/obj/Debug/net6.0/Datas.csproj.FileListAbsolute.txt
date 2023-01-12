@@ -13,3 +13,18 @@ C:\Users\pablo\Desktop\Balta.Io\Datas\obj\Debug\net6.0\refint\Datas.dll
 C:\Users\pablo\Desktop\Balta.Io\Datas\obj\Debug\net6.0\Datas.pdb
 C:\Users\pablo\Desktop\Balta.Io\Datas\obj\Debug\net6.0\Datas.genruntimeconfig.cache
 C:\Users\pablo\Desktop\Balta.Io\Datas\obj\Debug\net6.0\ref\Datas.dll
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\bin\Debug\net6.0\Datas.exe
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\bin\Debug\net6.0\Datas.deps.json
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\bin\Debug\net6.0\Datas.runtimeconfig.json
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\bin\Debug\net6.0\Datas.dll
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\bin\Debug\net6.0\Datas.pdb
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\obj\Debug\net6.0\Datas.csproj.AssemblyReference.cache
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\obj\Debug\net6.0\Datas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\obj\Debug\net6.0\Datas.AssemblyInfoInputs.cache
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\obj\Debug\net6.0\Datas.AssemblyInfo.cs
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\obj\Debug\net6.0\Datas.csproj.CoreCompileInputs.cache
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\obj\Debug\net6.0\Datas.dll
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\obj\Debug\net6.0\refint\Datas.dll
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\obj\Debug\net6.0\Datas.pdb
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\obj\Debug\net6.0\Datas.genruntimeconfig.cache
+C:\Users\pablo\OneDrive\Área de Trabalho\Documentação_Aulas\Balta.Io\Fundamentos_C#\Datas\obj\Debug\net6.0\ref\Datas.dll
