@@ -1,28 +1,28 @@
-namespace Blog.Screens.UserScreens;
+namespace Blog.Screens.RoleScreen;
 
-public static class MenuUserScreen
+public static class MenuRoleScreen
 {
     public static void Load()
     {
         Console.Clear();
-        Console.WriteLine("GESTÃO DE USUÁRIOS\n-------------------------------------");
+        Console.WriteLine("GESTÃO DE PERFIS\n-------------------------------------");
         Console.WriteLine("\nSelecione a opção que deseja:");
-        Console.WriteLine("1 - Criar usuário\n2 - Listar usuários\n3 - Atualizar usuário\n4 - Remover usuário");
+        Console.WriteLine("1 - Criar perfil\n2 - Listar perfis\n3 - Atualizar perfil\n4 - Remover perfil");
         if (short.TryParse(Console.ReadLine(), out short option))
         {
             switch (option)
             {
                 case 1:
-                    CreateUserScreen.Load();
+                    CreateRoleScreen.Load();
                     break;
                 case 2:
-                    ListUserScreen.Load();
+                    ListRoleScreen.Load();
                     break;
                 case 3:
-                    UpdateUserScreen.Load();
+                    UpdateRoleScreen.Load();
                     break;
                 case 4:
-                    DeleteUserScreen.Load();
+                    DeleteRoleScreen.Load();
                     break;
                 default:
                     Program.Load();

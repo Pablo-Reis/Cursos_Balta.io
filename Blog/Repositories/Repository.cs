@@ -25,11 +25,11 @@ public class Repository<T> where T : class
     }
     public void Delete(T model)
     {
-        _connection.Update<T>(model);
+        _connection.Delete<T>(model);
     }
     public void Delete(int id)
     {
         var model = _connection.Get<T>(id);
-        _connection.Update<T>(model);
+        _connection.Delete<T>(model);
     }
 }
