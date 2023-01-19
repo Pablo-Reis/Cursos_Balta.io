@@ -18,7 +18,7 @@ public static class DeleteRoleScreen
         }
         catch (Exception e)
         {
-            Console.Write($"Não foi possível deletar usuário: {e.Message}");
+            Console.Write($"Não foi possível deletar perfil: {e.Message}");
         }
         Console.ReadKey();
         Program.Load();

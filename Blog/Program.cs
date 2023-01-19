@@ -1,4 +1,6 @@
-﻿using Blog.Screens.RoleScreen;
+﻿using Blog.Screens.CategoryScreen;
+using Blog.Screens.RoleScreen;
+using Blog.Screens.TagScreen;
 using Blog.Screens.UserScreens;
 using Microsoft.Data.SqlClient;
 
@@ -20,7 +22,6 @@ class Program
         Console.WriteLine("Meu Blog");
         Console.WriteLine("-----------------");
         Console.WriteLine("O que deseja fazer?");
-        Console.WriteLine();
         Console.WriteLine("1 - Gestão de usuário");
         Console.WriteLine("2 - Gestão de perfil");
         Console.WriteLine("3 - Gestão de categoria");
@@ -45,10 +46,10 @@ class Program
                     break;
 
                 case 3:
-
+                    MenuCategoryScreen.Load();
                     break;
                 case 4:
-
+                    MenuTagScreen.Load();
                     break;
                 case 5:
 

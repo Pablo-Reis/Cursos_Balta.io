@@ -1,22 +1,21 @@
 using Blog.Models;
 using Blog.Repositories;
-using Blog.Screens.UserScreens;
 
-namespace Blog.Screens.RoleScreen;
+namespace Blog.Screens.TagScreen;
 
-public static class CreateRoleScreen
+public static class CreateTagScreen
 {
     public static void Load()
     {
         Console.Clear();
-        System.Console.WriteLine("--------------Cadastrar perfil----------------");
+        System.Console.WriteLine("--------------Cadastrar tag----------------");
         try
         {
-            System.Console.Write("Nome do perfil: ");
+            System.Console.Write("Nome da tag: ");
             var name = Console.ReadLine();
             System.Console.Write("Slug: ");
             var slug = Console.ReadLine();
-            Create(new Role
+            Create(new Tag
             {
                 Id = 0,
                 Name = name,
@@ -25,18 +24,18 @@ public static class CreateRoleScreen
         }
         catch (Exception e)
         {
-            Console.Write($"Não foi possível cadastrar perfil: {e.Message}");
+            Console.Write($"Não foi possível cadastrar a tag: {e.Message}");
         }
         Console.ReadKey();
         Program.Load();
     }
-    private static void Create(Role role)
+    private static void Create(Tag tag)
     {
-        var repository = new Repository<Role>(Database.Connection);
+        var repository = new Repository<Tag>(Database.Connection);
         try
         {
-            repository.Create(role);
-            Console.WriteLine("Perfil cadastrado com sucesso!");
+            repository.Create(tag);
+            Console.WriteLine("Tag cadastrada com sucesso!");
         }
         catch (Exception e)
         {
