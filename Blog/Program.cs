@@ -1,6 +1,8 @@
 ﻿using Blog.Screens.CategoryScreen;
+using Blog.Screens.ReportsScreen;
 using Blog.Screens.RoleScreen;
 using Blog.Screens.TagScreen;
+using Blog.Screens.UserRoleScreen;
 using Blog.Screens.UserScreens;
 using Microsoft.Data.SqlClient;
 
@@ -52,15 +54,15 @@ class Program
                     MenuTagScreen.Load();
                     break;
                 case 5:
-
+                    CreateUserRoleScreen.Load();
                     break;
 
                 case 6:
-
+                    CreatePostTagScreen.Load();
                     break;
 
                 case 7:
-
+                    MenuReportsScreen.Load();
                     break;
                 default: Load(); break;
             }
