@@ -31,6 +31,7 @@ class Program
         Console.WriteLine("5 - Vincular perfil/usuário");
         Console.WriteLine("6 - Vincular post/tag");
         Console.WriteLine("7 - Relatórios");
+        Console.WriteLine("8 - Sair");
         Console.WriteLine();
         Console.WriteLine();
         try
@@ -63,6 +64,9 @@ class Program
 
                 case 7:
                     MenuReportsScreen.Load();
+                    break;
+                case 8:
+                    Environment.Exit(0);
                     break;
                 default: Load(); break;
             }
