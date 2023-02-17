@@ -1,0 +1,15 @@
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\bin\Debug\net7.0\Desafio1.exe
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\bin\Debug\net7.0\Desafio1.deps.json
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\bin\Debug\net7.0\Desafio1.runtimeconfig.json
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\bin\Debug\net7.0\Desafio1.dll
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\bin\Debug\net7.0\Desafio1.pdb
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\obj\Debug\net7.0\Desafio1.csproj.AssemblyReference.cache
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\obj\Debug\net7.0\Desafio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\obj\Debug\net7.0\Desafio1.AssemblyInfoInputs.cache
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\obj\Debug\net7.0\Desafio1.AssemblyInfo.cs
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\obj\Debug\net7.0\Desafio1.csproj.CoreCompileInputs.cache
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\obj\Debug\net7.0\Desafio1.dll
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\obj\Debug\net7.0\refint\Desafio1.dll
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\obj\Debug\net7.0\Desafio1.pdb
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\obj\Debug\net7.0\Desafio1.genruntimeconfig.cache
+C:\Users\pablo\OneDrive\Área de Trabalho\Projetos\Desafios_Carnaval_Balta\Desafio1\obj\Debug\net7.0\ref\Desafio1.dll
